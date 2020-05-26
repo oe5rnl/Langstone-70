@@ -1,5 +1,7 @@
 # 70cm SDR Transceiver based on g4eml Langstone 
 
+alpha state !
+
 -----------------------------
 - based on Longstone TRX
 - 500 kHz Bandwidth

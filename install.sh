@@ -49,7 +49,7 @@ sudo raspi-config nonint do_boot_behaviour B2
 # install the Langstone Files
 
 git clone https://github.com/oe5rnl/Langstone-70.git
-cd Langstone
+cd Langstone-70
 chmod +x build
 chmod +x run
 chmod +x stop

@@ -1,6 +1,7 @@
 #!/bin/bash
 # Langstone Install script 
 # Buster Version G4EML 27/01/20
+# 70cm 500 kHz by oe5rnl
 
 
 # Update the package manager
@@ -47,7 +48,7 @@ sudo raspi-config nonint do_boot_behaviour B2
 
 # install the Langstone Files
 
-git clone https://github.com/g4eml/Langstone.git
+git clone https://github.com/oe5rnl/Langstone-70.git
 cd Langstone
 chmod +x build
 chmod +x run
@@ -61,7 +62,7 @@ chmod +x update
 if !(grep Langstone ~/.bashrc) then
   echo if test -z \"\$SSH_CLIENT\" >> ~/.bashrc 
   echo then >> ~/.bashrc
-  echo /home/pi/Langstone/run >> ~/.bashrc
+  echo /home/pi/Langstone-70/run >> ~/.bashrc
   echo fi >> ~/.bashrc
 fi
 

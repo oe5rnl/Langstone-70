@@ -1,4 +1,4 @@
-# 70cm SDR Transceiver based on g4eml Langstone 
+# 70cm SDR Transceiver by oe5rnl & oe5nvl - based on g4eml Langstone 
 
 alpha state !
 

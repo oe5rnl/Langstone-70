@@ -1,4 +1,5 @@
-# 70cm SDR Transceiver by oe5rnl & oe5nvl - based on g4eml Langstone 
+# 70cm SDR TRX by oe5rnl & oe5nvl - based on g4eml Langstone 
+
 
 alpha state !
 
@@ -13,6 +14,7 @@ alpha state !
 -  test TX
 -  stop edges for frequency marker
 -----------------------------
+
 
 This is an experimental project to produce a simple VHF, UHF and Microwave SDR Transceiver operating on SSB CW and FM.
 

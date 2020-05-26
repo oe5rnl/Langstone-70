@@ -1,0 +1,2 @@
+cc LangstoneGUI.c -liio -lwiringPi -lm
+mv a.out GUI
